@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kirumah's Recipe Hub - Recipes</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🍴 RecipeHub</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipes.html" class="active">Recipes</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="recipes">
+    <h2>Share Your Recipe</h2>
+    <form id="recipeForm">
+      <input type="text" id="recipeName" placeholder="Recipe Name" required>
+      <textarea id="ingredients" placeholder="Ingredients" required></textarea>
+      <textarea id="instructions" placeholder="Instructions" required></textarea>
+      <button type="submit" class="btn">Submit Recipe</button>
+    </form>
+  </section>
+</body>
+<script src="scripts/script.js"></script>
+</html>
